@@ -18,6 +18,7 @@ Buildrequires: perl-devel
 BuildRequires: perl-ExtUtils-PkgConfig
 Requires: perl-Gtk2 >= 1.00
 Conflicts: drakxtools < 9.1-15mdk
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This module provides perl access to GNOME-2.x core libraries.
