@@ -3,7 +3,7 @@
 Summary: Perl module for the gnome2-2.x core libraries
 Name:    perl-%module
 Version: 1.042
-Release: %mkrel 4
+Release: %mkrel 5
 License: GPL or Artistic
 Group:   Development/GNOME and GTK+
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=91219
