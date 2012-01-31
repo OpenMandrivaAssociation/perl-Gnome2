@@ -12,7 +12,7 @@ Url:        http://gtk2-perl.sf.net/
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=91219
 Source:     %{upstream_name}-%{upstream_version}.tar.bz2
 
-BuildRequires: gnomeui2-devel 
+BuildRequires: pkgconfig(libgnomeui-2.0)
 BuildRequires: perl(ExtUtils::Depends)
 BuildRequires: perl(ExtUtils::PkgConfig)
 BuildRequires: perl(Gnome2::VFS)    >= 1.00
