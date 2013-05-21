@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	12
+Release:	13
 
 Summary:	Perl module for the gnome2-2.x core libraries
 License:	GPL or Artistic
