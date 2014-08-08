@@ -10,6 +10,7 @@ Group:		Development/GNOME and GTK+
 Url:		http://gtk2-perl.sf.net/
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=91219
 Source0:	%{modname}-%{modver}.tar.bz2
+Source1:	perl-Gnome2.rpmlintrc
 BuildRequires:	pkgconfig(libgnomeui-2.0)
 BuildRequires:	perl(ExtUtils::Depends)
 BuildRequires:	perl(ExtUtils::PkgConfig)
