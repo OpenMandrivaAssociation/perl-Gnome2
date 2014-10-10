@@ -4,7 +4,7 @@
 Summary:	Perl modname	for the gnome2-2.x core libraries
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	19
+Release:	20
 License:	GPL or Artistic
 Group:		Development/GNOME and GTK+
 Url:		http://gtk2-perl.sf.net/
