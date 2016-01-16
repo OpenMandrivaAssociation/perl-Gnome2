@@ -1,15 +1,15 @@
 %define modname	Gnome2
-%define modver	1.042
+%define modver	1.046
 
 Summary:	Perl modname	for the gnome2-2.x core libraries
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	23
+Release:	1
 License:	GPL or Artistic
 Group:		Development/GNOME and GTK+
 Url:		http://gtk2-perl.sf.net/
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=91219
-Source0:	%{modname}-%{modver}.tar.bz2
+Source0:	%{modname}-%{modver}.tar.gz
 Source1:	perl-Gnome2.rpmlintrc
 BuildRequires:	pkgconfig(libgnomeui-2.0)
 BuildRequires:	perl(ExtUtils::Depends)
@@ -33,7 +33,7 @@ GNOME libraries provide extra widgets on top of the gtk+ toolkit.
 
 %prep
 %setup -qn %{modname}-%{modver}
-find -type d -name CVS | rm -rf 
+find -type d -name CVS | rm -rf
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
