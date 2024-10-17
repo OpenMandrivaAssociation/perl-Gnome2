@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	1
 License:	GPL or Artistic
 Group:		Development/GNOME and GTK+
-Url:		http://gtk2-perl.sf.net/
+Url:		https://gtk2-perl.sf.net/
 # http://sourceforge.net/project/showfiles.php?group_id=64773&package_id=91219
 Source0:	%{modname}-%{modver}.tar.gz
 Source1:	perl-Gnome2.rpmlintrc
